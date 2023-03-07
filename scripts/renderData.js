@@ -175,6 +175,10 @@ const renderSkillsSection = () => {
       src: 'java'
     },
     {
+      name: 'PHP',
+      src: 'php'
+    },
+    {
       name: 'MySQL',
       src: 'mysql'
     },
@@ -209,6 +213,10 @@ const renderSkillsSection = () => {
     {
       name: 'GitHub',
       src: 'github'
+    },
+    {
+      name: 'Figma',
+      src: 'figma'
     }
   ]
 
