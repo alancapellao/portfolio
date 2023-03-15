@@ -99,6 +99,14 @@ const getProjectsByTypeOrAll = (typeId) => {
       languages: ['java'],
       imgSrc: 'assets/projects/sorteio.png',
       repository: 'https://github.com/alancptk7/Numbers-Draw'
+    },
+    {
+      id: 11,
+      type: 2,
+      title: 'CRUD PHP',
+      languages: ['php', 'mysql'],
+      imgSrc: 'assets/projects/php.png',
+      repository: 'https://github.com/alancptk7/crud-php'
     }
   ];
 
@@ -217,6 +225,10 @@ const renderSkillsSection = () => {
     {
       name: 'Figma',
       src: 'figma'
+    },
+    {
+      name: 'Bootstrap',
+      src: 'bootstrap'
     }
   ]
 
