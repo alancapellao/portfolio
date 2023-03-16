@@ -17,7 +17,7 @@ const getProjectsByTypeOrAll = (typeId) => {
     {
       id: 1,
       type: 2,
-      title: 'StopWatch',
+      title: 'Cronômetro',
       languages: ['css', 'html', 'javascript'],
       imgSrc: 'assets/projects/stopwatch.jpg',
       repository: 'https://github.com/alancptk7/StopWatch',
@@ -103,7 +103,7 @@ const getProjectsByTypeOrAll = (typeId) => {
     {
       id: 11,
       type: 2,
-      title: 'CRUD PHP',
+      title: 'Form',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/php.png',
       repository: 'https://github.com/alancptk7/crud-php'
