@@ -115,7 +115,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       type: 1,
       title: 'Formulário',
       languages: ['php', 'mysql'],
-      imgSrc: 'assets/projects/php.png',
+      imgSrc: 'assets/projects/form.png',
       repository: 'https://github.com/alancptk7/crud-php'
     }
   ];
