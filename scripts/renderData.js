@@ -20,7 +20,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Controle Financeiro',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/finances.png',
-      repository: 'https://github.com/alancptk7/Finances-control'
+      repository: 'https://github.com/alancptk7/finances-control'
     },
     {
       id: 2,
@@ -28,70 +28,70 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'CRUD',
       languages: ['java', 'mysql'],
       imgSrc: 'assets/projects/crud.png',
-      repository: 'https://github.com/alancptk7/CRUD'
+      repository: 'https://github.com/alancptk7/crud'
     }
     ,
     {
       id: 3,
       type: 2,
       title: 'Cronômetro',
-      languages: ['css', 'html', 'javascript'],
+      languages: ['javascript', 'css', 'html'],
       imgSrc: 'assets/projects/stopwatch.jpg',
-      repository: 'https://github.com/alancptk7/StopWatch',
-      site: 'https://alancptk7.github.io/StopWatch/'
+      repository: 'https://github.com/alancptk7/stopwatch',
+      site: 'https://alancptk7.github.io/stopwatch/'
     },
     {
       id: 4,
       type: 1,
       title: 'Calculadora Web',
-      languages: ['css', 'html', 'javascript'],
+      languages: ['html', 'javascript', 'css'],
       imgSrc: 'assets/projects/calcweb.png',
-      repository: 'https://github.com/alancptk7/Calculator-Web',
-      site: 'https://alancptk7.github.io/Calculator-Web/'
+      repository: 'https://github.com/alancptk7/calculator-web',
+      site: 'https://alancptk7.github.io/calculator-web/'
     },
     {
       id: 5,
       type: 1,
       title: 'Conversor Romano',
-      languages: ['css', 'html', 'javascript'],
+      languages: ['css', 'javascript', 'html'],
       imgSrc: 'assets/projects/converter.png',
-      repository: 'https://github.com/alancptk7/ConverterRoman',
-      site: 'https://alancptk7.github.io/ConverterRoman/'
+      repository: 'https://github.com/alancptk7/converter-roman',
+      site: 'https://alancptk7.github.io/converter-roman/'
     },
     {
       id: 6,
       type: 1,
-      title: 'Relógio Digital',
-      languages: ['css', 'html', 'javascript'],
+      title: 'Relógio',
+      languages: ['css', 'javascript', 'html'],
       imgSrc: 'assets/projects/clock.png',
-      repository: 'https://github.com/alancptk7/Clock',
-      site: 'https://alancptk7.github.io/Clock/'
+      repository: 'https://github.com/alancptk7/clock',
+      site: 'https://alancptk7.github.io/clock/'
     },
     {
       id: 7,
       type: 1,
       title: 'Login',
-      languages: ['css', 'html', 'javascript'],
+      languages: ['css', 'html'],
       imgSrc: 'assets/projects/login.png',
-      repository: 'https://github.com/alancptk7/Login',
-      site: 'https://alancptk7.github.io/Login/'
+      repository: 'https://github.com/alancptk7/login',
+      site: 'https://alancptk7.github.io/login/'
     },
     {
       id: 8,
       type: 1,
       title: 'Lista de Tarefas',
-      languages: ['css', 'html', 'javascript'],
+      languages: ['css', 'javascript', 'html'],
       imgSrc: 'assets/projects/task.png',
-      repository: 'https://github.com/alancptk7/Task-List',
-      site: 'https://alancptk7.github.io/Task-List/'
+      repository: 'https://github.com/alancptk7/task-list',
+      site: 'https://alancptk7.github.io/task-list/'
     },
     {
       id: 9,
       type: 1,
-      title: 'Calculadora Windows',
+      title: 'Calculadora',
       languages: ['java'],
       imgSrc: 'assets/projects/calc.png',
-      repository: 'https://github.com/alancptk7/Calculator'
+      repository: 'https://github.com/alancptk7/calculator'
     },
     {
       id: 10,
@@ -99,7 +99,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Facebook',
       languages: ['java', 'mysql'],
       imgSrc: 'assets/projects/facebook.png',
-      repository: 'https://github.com/alancptk7/Facebook'
+      repository: 'https://github.com/alancptk7/facebook'
     },
     ,
     {
@@ -108,7 +108,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Sorteio de Números',
       languages: ['java'],
       imgSrc: 'assets/projects/sorteio.png',
-      repository: 'https://github.com/alancptk7/Numbers-Draw'
+      repository: 'https://github.com/alancptk7/random-numbers'
     },
     {
       id: 12,
@@ -116,7 +116,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       title: 'Formulário',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/form.png',
-      repository: 'https://github.com/alancptk7/crud-php'
+      repository: 'https://github.com/alancptk7/form'
     }
   ];
 
