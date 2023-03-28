@@ -43,7 +43,7 @@ const getProjectsByTypeOrAll = (typeId) => {
     },
     {
       id: 4,
-      type: 2,
+      type: 1,
       title: 'Controle Financeiro',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/finances.png',
