@@ -126,6 +126,14 @@ const getProjectsByTypeOrAll = (typeId) => {
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/form.png',
       repository: 'https://github.com/alancptk7/form'
+    },
+    {
+      id: 14,
+      type: 1,
+      title: 'Chat Aleatório',
+      languages: ['php', 'javascript'],
+      imgSrc: 'assets/projects/chat.png',
+      repository: 'https://github.com/alancptk7/random-chat'
     }
   ];
 
