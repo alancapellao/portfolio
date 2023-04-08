@@ -18,23 +18,38 @@ const getProjectsByTypeOrAll = (typeId) => {
     {
       id: 1,
       type: 2,
+      title: 'Entrar/Cadastrar',
+      languages: ['php', 'laravel', 'mysql'],
+      imgSrc: 'assets/projects/sign-in.png',
+      repository: 'https://github.com/alancptk7/sign-in-up-laravel'
+    },
+    {
+      id: 2,
+      type: 2,
+      title: 'Chat Aleatório',
+      languages: ['php', 'mysql'],
+      imgSrc: 'assets/projects/chat.png',
+      repository: 'https://github.com/alancptk7/random-chat'
+    },
+    {
+      id: 3,
+      type: 2,
       title: 'Sessão',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/session.png',
       repository: 'https://github.com/alancptk7/session-form'
     },
     {
-      id: 2,
-      type: 2,
+      id: 4,
+      type: 1,
       title: 'CRUD',
       languages: ['java', 'mysql'],
       imgSrc: 'assets/projects/crud.png',
       repository: 'https://github.com/alancptk7/crud'
-    }
-    ,
+    },
     {
-      id: 3,
-      type: 2,
+      id: 5,
+      type: 1,
       title: 'Cronômetro',
       languages: ['javascript', 'css', 'html'],
       imgSrc: 'assets/projects/stopwatch.jpg',
@@ -42,7 +57,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/stopwatch/'
     },
     {
-      id: 4,
+      id: 6,
       type: 1,
       title: 'Controle Financeiro',
       languages: ['php', 'mysql'],
@@ -50,7 +65,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       repository: 'https://github.com/alancptk7/finances-control'
     },
     {
-      id: 5,
+      id: 7,
       type: 1,
       title: 'Calculadora Web',
       languages: ['html', 'javascript', 'css'],
@@ -59,7 +74,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/calculator-web/'
     },
     {
-      id: 6,
+      id: 8,
       type: 1,
       title: 'Conversor Romano',
       languages: ['css', 'javascript', 'html'],
@@ -68,7 +83,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/converter-roman/'
     },
     {
-      id: 7,
+      id: 9,
       type: 1,
       title: 'Relógio',
       languages: ['css', 'javascript', 'html'],
@@ -77,7 +92,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/clock/'
     },
     {
-      id: 8,
+      id: 10,
       type: 1,
       title: 'Login',
       languages: ['css', 'html'],
@@ -86,7 +101,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/login/'
     },
     {
-      id: 9,
+      id: 11,
       type: 1,
       title: 'Lista de Tarefas',
       languages: ['css', 'javascript', 'html'],
@@ -95,7 +110,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       site: 'https://alancptk7.github.io/task-list/'
     },
     {
-      id: 10,
+      id: 12,
       type: 1,
       title: 'Calculadora',
       languages: ['java'],
@@ -103,7 +118,7 @@ const getProjectsByTypeOrAll = (typeId) => {
       repository: 'https://github.com/alancptk7/calculator'
     },
     {
-      id: 11,
+      id: 13,
       type: 1,
       title: 'Facebook',
       languages: ['java', 'mysql'],
@@ -112,7 +127,7 @@ const getProjectsByTypeOrAll = (typeId) => {
     },
     ,
     {
-      id: 12,
+      id: 14,
       type: 1,
       title: 'Sorteio de Números',
       languages: ['java'],
@@ -120,20 +135,12 @@ const getProjectsByTypeOrAll = (typeId) => {
       repository: 'https://github.com/alancptk7/random-numbers'
     },
     {
-      id: 13,
+      id: 15,
       type: 1,
       title: 'Formulário',
       languages: ['php', 'mysql'],
       imgSrc: 'assets/projects/form.png',
       repository: 'https://github.com/alancptk7/form'
-    },
-    {
-      id: 14,
-      type: 1,
-      title: 'Chat Aleatório',
-      languages: ['php'],
-      imgSrc: 'assets/projects/chat.png',
-      repository: 'https://github.com/alancptk7/random-chat'
     }
   ];
 
@@ -256,6 +263,10 @@ const renderSkillsSection = () => {
     {
       name: 'Bootstrap',
       src: 'bootstrap'
+    },
+    {
+      name: 'Laravel',
+      src: 'laravel'
     }
   ]
 
