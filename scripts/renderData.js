@@ -18,10 +18,10 @@ const getProjectsByTypeOrAll = (typeId) => {
     {
       id: 1,
       type: 2,
-      title: 'Entrar/Cadastrar',
+      title: 'Controle de Estoque',
       languages: ['php', 'laravel', 'mysql'],
-      imgSrc: 'assets/projects/sign-in.png',
-      repository: 'https://github.com/alancptk7/sign-in-up-laravel'
+      imgSrc: 'assets/projects/control.png',
+      repository: 'https://github.com/alancptk7/inventory-control'
     },
     {
       id: 2,
