@@ -859,20 +859,16 @@ section#projects .container .cards-projects .box .cover .details p {
 
 section#projects .container .cards-projects .box .description {
     background-color: #212121;
-    padding: 1.5rem 2rem 1.2rem 2rem;
+    padding: 1.5rem 0rem 1.2rem 0rem;
     display: none;
     position: absolute;
-    width: 90%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     border-radius: 0 0 2rem 2rem;
     cursor: pointer;
 }
 
 @media (max-width: 860px) {
-    section#projects .container .cards-projects .box .description {
-        width: 88%
-    }
-
     section#projects .container .cards-projects .box .description p {
         width: 30%
     }
@@ -884,10 +880,6 @@ section#projects .container .cards-projects .box .description {
 }
 
 @media screen and (max-width: 768px) {
-    section#projects .container .cards-projects .box .description {
-        width: 89%
-    }
-
     .proj {
         width: 27%;
     }
@@ -911,7 +903,7 @@ section#projects .container .cards-projects .box .description a {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    padding: .4rem 2rem;
+    padding: 0.4rem 2rem;
     border: 0.1rem solid #33A8FF;
     border-radius: 2rem;
     animation: backgroundScale 0.8s .2s forwards;
@@ -928,6 +920,7 @@ section#projects .container .cards-projects .box:hover .description {
     display: flex;
     animation: showDown .5s forwards;
     z-index: -50;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
@@ -968,10 +961,6 @@ section#projects .container .cards-projects .box:hover .description {
 @media (max-width: 1366px) {
     .menuOpen {
         top: 10%;
-    }
-
-    section#projects .container .cards-projects .box .description {
-        width: 89.5%;
     }
 }
 
