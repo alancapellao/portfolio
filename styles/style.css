@@ -70,7 +70,7 @@ figure,
 figcaption,
 footer,
 header,
-hgroup,
+menuOpen hgroup,
 menu,
 nav,
 output,
@@ -266,19 +266,21 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem 0;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 header .container .menu i {
+    display: flex;
     font-size: 2rem;
     color: #33A8FF;
     cursor: pointer;
     padding: .5rem;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 header .container .menu i:hover {
-    color: #13131F
+    opacity: .8;
+    transform: scale(1.1);
 }
 
 header .container h2 {
@@ -294,7 +296,7 @@ header .container .toggle {
 
 header .container .toggle input {
     opacity: 0;
-    position: absolute
+    position: absolute;
 }
 
 header .container .toggle input:checked+.label .box {
@@ -370,7 +372,7 @@ section#sobre .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10rem 2.5rem
+    padding: 12rem 2.5rem
 }
 
 @media (max-width: 480px) {
@@ -392,16 +394,18 @@ section#sobre .banner .profile img {
     cursor: pointer;
     transition: .2s;
     max-width: 100%;
-    animation: scaleDelayed 1s 6.5s
+    animation: scaleDelayed 1s 6.5s;
+    background-image: linear-gradient(90deg, rgba(9, 77, 121, 1) .2%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 15vh 30vh 15vh 30vh;
 }
 
 section#sobre .banner .profile img:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .profile img {
-        width: 30rem
+        width: 30rem;
     }
 }
 
@@ -708,28 +712,28 @@ section#contacts .contacts .icons .icon {
     align-items: center;
     justify-content: center;
     transition: .2s;
+    gap: 16px;
+    height: 180px;
 }
 
 section#contacts .contacts .icons .icon:hover {
     transform: scale(1.2);
 }
 
-section#contacts .contacts .icons .icon a {
-    width: fit-content;
+section#contacts .contacts .icons .icon p {
+    font-family: 'DM Sans', sans-serif;
 }
 
-section#contacts .contacts .icons .icon a:first-child {
-    margin-bottom: 2rem
+section#contacts .contacts .icons .icon p:nth-child(2) {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F9F9F9;
 }
 
-section#contacts .contacts .icons .icon a:nth-child(2) {
-    margin-bottom: 1rem
-}
-
-section#contacts .contacts .icons .icon a:last-child p {
+section#contacts .contacts .icons .icon p:nth-child(3) {
     font-size: 1.6rem;
     font-weight: 500;
-    color: #828282
+    color: #828282;
 }
 
 section#contacts .contacts .icons .icon a p {
@@ -739,16 +743,16 @@ section#contacts .contacts .icons .icon a p {
     color: #F9F9F9
 }
 
-section#contacts .contacts .icons .icon .box {
+section#contacts .contacts .icons .icon i {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #212121;
-    border-radius: 50%
-}
-
-section#contacts .contacts .icons .icon .box img {
-    padding: 1.5rem
+    border-radius: 50%;
+    color: #33A8FF;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
 }
 
 section#projects .container {
@@ -795,7 +799,6 @@ section#projects .container .cards-projects {
 
 section#projects .container .cards-projects .box {
     transition: .3s;
-    min-width: 30%
 }
 
 section#projects .container .cards-projects .box:hover {
@@ -812,7 +815,9 @@ section#projects .container .cards-projects .box:hover {
 
 section#projects .container .cards-projects .box .cover {
     position: relative;
-    cursor: pointer
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section#projects .container .cards-projects .box .cover::after {
@@ -836,13 +841,12 @@ section#projects .container .cards-projects .box .cover::before {
 
 section#projects .container .cards-projects .box .cover .details {
     position: absolute;
-    width: 100%;
+    width: 80%;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center
+    text-align: center;
+
 }
 
 section#projects .container .cards-projects .box .cover .details p {
@@ -853,20 +857,15 @@ section#projects .container .cards-projects .box .cover .details p {
     margin-bottom: 1rem
 }
 
-section#projects .container .cards-projects .box .cover>img {
-    width: 100%
-}
-
 section#projects .container .cards-projects .box .description {
     background-color: #212121;
     padding: 1.5rem 2rem 1.2rem 2rem;
     display: none;
     position: absolute;
-    width: 92.5%;
-    align-items: center;
+    width: 90%;
     justify-content: space-between;
     border-radius: 0 0 2rem 2rem;
-    cursor: pointer
+    cursor: pointer;
 }
 
 @media (max-width: 860px) {
@@ -915,7 +914,7 @@ section#projects .container .cards-projects .box .description a {
     padding: .4rem 2rem;
     border: 0.1rem solid #33A8FF;
     border-radius: 2rem;
-    animation: backgroundScale 1s .5s forwards;
+    animation: backgroundScale 0.8s .2s forwards;
 }
 
 section#projects .container .cards-projects .box:hover .details,
@@ -957,17 +956,12 @@ section#projects .container .cards-projects .box:hover .description {
 .menuOpen {
     position: fixed;
     width: 100%;
-    z-index: 200;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(20px);
     top: 8%;
     height: 100vh;
     animation: appearField 1s;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    padding-top: 4.5rem;
-    align-items: center;
     animation: fade 1s;
 }
 
@@ -991,6 +985,8 @@ section#projects .container .cards-projects .box:hover .description {
     color: #33A8FF;
     font-weight: 600;
     font-size: 3.8rem;
+    text-align: center;
+    margin-top: 50px;
 }
 
 @media (max-width: 660px) {

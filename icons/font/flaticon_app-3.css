@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon_app-3";
+    src: url("./flaticon_app-3.ttf?522da041861b49d5f53865e875a40854") format("truetype"),
+        url("./flaticon_app-3.woff?522da041861b49d5f53865e875a40854") format("woff"),
+        url("./flaticon_app-3.woff2?522da041861b49d5f53865e875a40854") format("woff2"),
+        url("./flaticon_app-3.eot?522da041861b49d5f53865e875a40854#iefix") format("embedded-opentype"),
+        url("./flaticon_app-3.svg?522da041861b49d5f53865e875a40854#flaticon_app-3") format("svg");
+}
+
+i[class^="icon-"]:before,
+i[class*=" icon-"]:before {
+    font-family: flaticon_app-3 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telefone:before {
+    content: "\f101";
+}
+
+.icon-email:before {
+    content: "\f102";
+}
+
+.icon-linkedin:before {
+    content: "\f103";
+}
+
+.icon-github:before {
+    content: "\f104";
+}
+
+.icon-fechar:before {
+    content: "\f105";
+}
+
+.icon-menu:before {
+    content: "\f106";
+}

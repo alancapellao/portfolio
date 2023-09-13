@@ -1,0 +1,49 @@
+$flaticon_app-3-font: "flaticon_app-3";
+
+@font-face {
+    font-family: $flaticon_app-3-font;
+    src: url("./flaticon_app-3.ttf?522da041861b49d5f53865e875a40854") format("truetype"),
+url("./flaticon_app-3.woff?522da041861b49d5f53865e875a40854") format("woff"),
+url("./flaticon_app-3.woff2?522da041861b49d5f53865e875a40854") format("woff2"),
+url("./flaticon_app-3.eot?522da041861b49d5f53865e875a40854#iefix") format("embedded-opentype"),
+url("./flaticon_app-3.svg?522da041861b49d5f53865e875a40854#flaticon_app-3") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_app-3 !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_app-3-map: (
+    "telefone": "\f101",
+    "e-mail": "\f102",
+    "linkedin": "\f103",
+    "github": "\f104",
+    "fechar-o-simbolo-da-cruz-em-um-circulo": "\f105",
+    "cardapio": "\f106",
+);
+
+.flaticon-telefone:before {
+    content: map-get($flaticon_app-3-map, "telefone");
+}
+.flaticon-e-mail:before {
+    content: map-get($flaticon_app-3-map, "e-mail");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon_app-3-map, "linkedin");
+}
+.flaticon-github:before {
+    content: map-get($flaticon_app-3-map, "github");
+}
+.flaticon-fechar-o-simbolo-da-cruz-em-um-circulo:before {
+    content: map-get($flaticon_app-3-map, "fechar-o-simbolo-da-cruz-em-um-circulo");
+}
+.flaticon-cardapio:before {
+    content: map-get($flaticon_app-3-map, "cardapio");
+}
