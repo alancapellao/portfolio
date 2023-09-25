@@ -34,5 +34,13 @@ const skills = [
     {
         name: 'Composer',
         src: 'composer'
-    }
+    },
+    {
+        name: 'Docker',
+        src: 'docker'
+    },
+    {
+        name: 'AWS',
+        src: 'aws'
+    },
 ];

@@ -86,7 +86,7 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 article,
@@ -100,21 +100,21 @@ hgroup,
 menu,
 nav,
 section {
-    display: block
+    display: block;
 }
 
 body {
-    line-height: 1
+    line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none
+    list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none
+    quotes: none;
 }
 
 blockquote:before,
@@ -122,12 +122,12 @@ blockquote:after,
 q:before,
 q:after {
     content: '';
-    content: none
+    content: none;
 }
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 button {
@@ -137,90 +137,90 @@ button {
     padding: 0;
     font: inherit;
     cursor: pointer;
-    outline: inherit
+    outline: inherit;
 }
 
 a {
     text-decoration: none;
     border: none;
-    color: currentColor
+    color: currentColor;
 }
 
 @keyframes fade {
     from {
-        opacity: 0
+        opacity: 0;
     }
 
     to {
         opacity: 1;
-        visibility: visible
+        visibility: visible;
     }
 }
 
 @keyframes showDown {
     from {
         opacity: 0;
-        transform: translateY(-200%)
+        transform: translateY(-200%);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0)
+        transform: translateY(0);
     }
 }
 
 @keyframes backgroundScale {
     to {
         background-color: #33A8FF;
-        transform: scale(1.1)
+        transform: scale(1.1);
     }
 }
 
 @keyframes scaleDelayed {
     0% {
-        transform: scale(1)
+        transform: scale(1);
     }
 
     50% {
-        transform: scale(1.1)
+        transform: scale(1.1);
     }
 
     100% {
-        transform: scale(1)
+        transform: scale(1);
     }
 }
 
 :root {
     font-size: 62.5%;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 480px) {
     :root {
-        font-size: 55%
+        font-size: 55%;
     }
 }
 
 @media (max-width: 860px) {
     :root {
-        font-size: 57%
+        font-size: 57%;
     }
 }
 
 @media (max-width: 992px) {
     :root {
-        font-size: 59%
+        font-size: 59%;
     }
 }
 
 @media (max-width: 1200px) {
     :root {
-        font-size: 61%
+        font-size: 61%;
     }
 }
 
 :root body {
-    font-size: 1.6rem
+    font-size: 1.6rem;
 }
 
 .hidden {
@@ -230,30 +230,30 @@ a {
 .container {
     margin-right: auto;
     margin-left: auto;
-    width: 90%
+    width: 90%;
 }
 
 ::-webkit-scrollbar {
-    width: 1.4rem
+    width: 1.4rem;
 }
 
 ::-webkit-scrollbar-track {
-    background: #13131F
+    background: #13131F;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #33A8FF
+    background: #33A8FF;
 }
 
 body {
-    background-color: #13131F
+    background-color: #13131F;
 }
 
 header {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #13131F
+    background-color: #13131F;
 }
 
 header.open {
@@ -287,11 +287,11 @@ header .container h2 {
     font-family: 'DM Sans', sans-serif;
     font-size: 2.6rem;
     font-weight: bold;
-    color: #F9F9F9
+    color: #F9F9F9;
 }
 
 header .container .toggle {
-    display: flex
+    display: flex;
 }
 
 header .container .toggle input {
@@ -300,7 +300,7 @@ header .container .toggle input {
 }
 
 header .container .toggle input:checked+.label .box {
-    transform: translateX(4rem)
+    transform: translateX(4rem);
 }
 
 @media (max-width: 480px) {
@@ -310,7 +310,7 @@ header .container .toggle input:checked+.label .box {
 }
 
 header .container .toggle input:checked+.label {
-    background-color: #F9F9F9
+    background-color: #F9F9F9;
 }
 
 header .container .toggle .label {
@@ -320,12 +320,12 @@ header .container .toggle .label {
     border-radius: 2rem;
     padding: .3rem;
     cursor: pointer;
-    transition: background-color .5s
+    transition: background-color .5s;
 }
 
 @media (max-width: 480px) {
     header .container .toggle .label {
-        width: 4rem
+        width: 4rem;
     }
 }
 
@@ -334,13 +334,13 @@ header .container .toggle .label .box {
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    transition: .5s
+    transition: .5s;
 }
 
 @media (max-width: 480px) {
     header .container .toggle .label .box {
         height: 1.5rem;
-        width: 1.5rem
+        width: 1.5rem;
     }
 }
 
@@ -350,29 +350,29 @@ header::after {
     position: absolute;
     width: 100%;
     height: .1rem;
-    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%)
+    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%);
 }
 
 section#sobre {
-    padding-bottom: 11.25rem
+    padding-bottom: 11.25rem;
 }
 
 @media (max-width: 480px) {
     section#sobre {
-        padding-bottom: 5rem
+        padding-bottom: 5rem;
     }
 }
 
 section#sobre .container {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 section#sobre .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12rem 2.5rem
+    padding: 12rem 2.5rem;
 }
 
 @media (max-width: 480px) {
@@ -380,13 +380,13 @@ section#sobre .banner {
         flex-wrap: wrap-reverse;
         justify-content: center;
         padding-top: 5rem;
-        text-align: center
+        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .profile {
-        text-align: center
+        text-align: center;
     }
 }
 
@@ -411,27 +411,27 @@ section#sobre .banner .profile img:hover {
 
 @media (max-width: 660px) {
     section#sobre .banner .profile img {
-        width: 19rem
+        width: 19rem;
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .profile img {
         width: 60%;
-        margin-bottom: 2.5rem
+        margin-bottom: 2.5rem;
     }
 }
 
 section#sobre .banner .intro {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem
+    gap: 2.5rem;
 }
 
 section#sobre .banner .intro .title {
     display: flex;
     flex-direction: column;
-    gap: .5rem
+    gap: .5rem;
 }
 
 section#sobre .banner .intro .title h1 {
@@ -439,20 +439,20 @@ section#sobre .banner .intro .title h1 {
     font-size: 4.2rem;
     font-weight: 500;
     color: #F9F9F9;
-    line-height: 5.4rem
+    line-height: 5.4rem;
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title h1 {
         font-size: clamp(2rem, 5vw, 4rem) !important;
-        line-height: 120% !important
+        line-height: 120% !important;
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title h1 {
         font-size: clamp(3.6rem, 10vw, 4.2rem) !important;
-        line-height: 120% !important
+        line-height: 120% !important;
     }
 }
 
@@ -463,20 +463,20 @@ section#sobre .banner .intro .title span {
     color: #F9F9F9;
     line-height: 5.4rem;
     display: block;
-    color: #33A8FF
+    color: #33A8FF;
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title span {
         font-size: clamp(2rem, 5vw, 4rem) !important;
-        line-height: 120% !important
+        line-height: 120% !important;
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title span {
         font-size: clamp(3.6rem, 10vw, 4.2rem) !important;
-        line-height: 130% !important
+        line-height: 130% !important;
     }
 }
 
@@ -484,32 +484,32 @@ section#sobre .banner .intro .title p {
     font-family: 'DM Sans', sans-serif;
     font-size: 2rem;
     font-weight: 500;
-    color: #828282
+    color: #828282;
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .title p {
         font-size: clamp(1.4rem, 2.3vw, 1.8rem) !important;
-        line-height: 120% !important
+        line-height: 120% !important;
     }
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .title p {
         font-size: clamp(1rem, 8vw, 1.8rem) !important;
-        line-height: 150% !important
+        line-height: 150% !important;
     }
 }
 
 section#sobre .banner .intro .actions {
     display: flex;
-    gap: 2.5rem
+    gap: 2.5rem;
 }
 
 @media (max-width: 480px) {
     section#sobre .banner .intro .actions {
         justify-content: center;
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 }
 
@@ -524,31 +524,31 @@ section#sobre .banner .intro .actions a {
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-    transition: .3s
+    transition: .3s;
 }
 
 section#sobre .banner .intro .actions a:nth-child(2) {
     background-image: none;
-    border: 0.1rem solid #33A8FF
+    border: 0.1rem solid #33A8FF;
 }
 
 section#sobre .banner .intro .actions a:hover {
     background-image: linear-gradient(90deg, rgba(9, 77, 121, 1) 100%, rgba(0, 212, 255, 1) .2%);
-    transform: scale(0.95)
+    transform: scale(0.95);
 }
 
 @media (max-width: 860px) {
     section#sobre .banner .intro .actions a {
         font-size: clamp(1.2rem, 2vw, 1rem) !important;
         padding: 1.2rem 1.5rem !important;
-        border-radius: 2rem
+        border-radius: 2rem;
     }
 }
 
 @media (max-width: 660px) {
     section#sobre .banner .intro .actions a {
         font-size: clamp(1.1rem, 1.5vw, 1rem) !important;
-        padding: 1rem 1rem !important
+        padding: 1rem 1rem !important;
     }
 }
 
@@ -556,7 +556,7 @@ section#sobre .banner .intro .actions a:hover {
     section#sobre .banner .intro .actions a {
         width: 100% !important;
         font-size: 1.6rem !important;
-        padding: 1.4rem 2.5rem !important
+        padding: 1.4rem 2.5rem !important;
     }
 }
 
@@ -564,7 +564,7 @@ section#sobre .about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.5rem
+    gap: 2.5rem;
 }
 
 section#sobre .about h2 {
@@ -580,29 +580,29 @@ section#sobre .about p {
     font-size: 1.8rem;
     text-align: center;
     width: 55%;
-    line-height: 180%
+    line-height: 180%;
 }
 
 @media (max-width: 1200px) {
     section#sobre .about p {
-        width: 100%
+        width: 100%;
     }
 }
 
 @media (max-width: 660px) {
     section#sobre .about p {
-        font-size: 1.6rem
+        font-size: 1.6rem;
     }
 }
 
 section#skills {
-    margin: 0rem 0 10rem 0
+    margin: 0rem 0 10rem 0;
 }
 
 section#skills .skills .container {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 section#skills .skills .container h2 {
@@ -615,7 +615,7 @@ section#skills .skills .container h2 {
 
 @media (max-width: 480px) {
     section#skills .skills .container h2 {
-        margin-bottom: 5rem
+        margin-bottom: 5rem;
     }
 }
 
@@ -629,7 +629,7 @@ section#skills .skills .container .cards {
 @media (max-width: 992px) {
     section#skills .skills .container .cards {
         flex-wrap: wrap;
-        justify-content: center
+        justify-content: center;
     }
 }
 
@@ -645,8 +645,7 @@ section#skills .skills .container .cards .box {
     justify-content: center;
     align-items: center;
     border-top-left-radius: 2.5rem;
-    cursor: pointer;
-    transition: .2s
+    transition: .2s;
 }
 
 section#skills .skills .container .cards .box p {
@@ -654,11 +653,12 @@ section#skills .skills .container .cards .box p {
     font-size: 1.6rem;
     font-weight: 500;
     color: #33A8FF;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
+    user-select: none;
 }
 
 section#skills .skills .container .cards .box img {
-    width: 4rem
+    width: 4rem;
 }
 
 section#skills .skills .container .cards .box::after {
@@ -669,15 +669,15 @@ section#skills .skills .container .cards .box::after {
     height: .3rem;
     background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%);
     bottom: -.1rem;
-    left: 0
+    left: 0;
 }
 
 section#skills .skills .container .cards .box:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 section#contacts {
-    margin: 2.5rem 0 10rem 0
+    margin: 2.5rem 0 10rem 0;
 }
 
 section#contacts .contacts {
@@ -740,7 +740,7 @@ section#contacts .contacts .icons .icon a p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #F9F9F9
+    color: #F9F9F9;
 }
 
 section#contacts .contacts .icons .icon i {
@@ -758,7 +758,7 @@ section#contacts .contacts .icons .icon i {
 section#projects .container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 5rem
+    padding-bottom: 5rem;
 }
 
 section#projects .container h2 {
@@ -766,7 +766,7 @@ section#projects .container h2 {
     font-size: 3.2rem;
     color: #F9F9F9;
     font-weight: 600;
-    text-align: center
+    text-align: center;
 }
 
 section#projects .container h3 {
@@ -776,7 +776,7 @@ section#projects .container h3 {
     color: #F9F9F9;
     position: relative;
     display: inline-block;
-    margin-block: 10rem 5rem
+    margin-block: 10rem 5rem;
 }
 
 section#projects .container h3::after {
@@ -787,14 +787,14 @@ section#projects .container h3::after {
     height: .3rem;
     border-radius: 2rem;
     margin-top: .8rem;
-    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%)
+    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%);
 }
 
 section#projects .container .cards-projects {
     display: flex;
     gap: 4.75rem;
     flex-wrap: wrap;
-    align-items: center
+    align-items: center;
 }
 
 section#projects .container .cards-projects .box {
@@ -804,12 +804,12 @@ section#projects .container .cards-projects .box {
 section#projects .container .cards-projects .box:hover {
     transform: scale(1.2);
     position: relative;
-    z-index: 2
+    z-index: 2;
 }
 
 @media (max-width: 480px) {
     section#projects .container .cards-projects .box:hover {
-        transform: scale(1.05)
+        transform: scale(1.05);
     }
 }
 
@@ -827,7 +827,7 @@ section#projects .container .cards-projects .box .cover::after {
     width: 100%;
     height: .3rem;
     bottom: .0rem;
-    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%)
+    background-image: linear-gradient(90deg, #33A8FF 0%, #094d79 92.32%);
 }
 
 section#projects .container .cards-projects .box .cover::before {
@@ -870,11 +870,10 @@ section#projects .container .cards-projects .box .description {
 
 @media (max-width: 860px) {
     section#projects .container .cards-projects .box .description p {
-        width: 30%
+        width: 30%;
     }
 
     .rep {
-
         width: 10%;
     }
 }
@@ -925,20 +924,20 @@ section#projects .container .cards-projects .box:hover .description {
 
 @media (max-width: 992px) {
     section#projects .container .cards-projects .box {
-        width: 40vw
+        width: 40vw;
     }
 }
 
 @media (max-width: 768px) {
     section#projects .container .cards-projects .box {
-        width: 100%
+        width: 100%;
     }
 }
 
 .js-section {
     opacity: 0;
     transition: .5s;
-    transform: translateX(-10rem)
+    transform: translateX(-10rem);
 }
 
 .js-section.active {
@@ -997,8 +996,6 @@ section#projects .container .cards-projects .box:hover .description {
     .menuOpen nav {
         gap: 5.5rem;
     }
-
-
 }
 
 .menuOpen nav a {
@@ -1006,17 +1003,17 @@ section#projects .container .cards-projects .box:hover .description {
     text-decoration: none;
     color: #F9F9F9;
     font-size: 3.8rem;
-    transition: .3s
+    transition: .3s;
 }
 
 .menuOpen nav a:hover {
     color: #33A8FF;
-    transform: scale(1.4)
+    transform: scale(1.4);
 }
 
 @media (max-width: 480px) {
     .menuOpen nav a {
-        font-size: 3rem
+        font-size: 3rem;
     }
 }
 
@@ -1043,14 +1040,14 @@ section#projects .container .cards-projects .box:hover .description {
     top: 50%;
     left: 50%;
     z-index: 5;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 860px) {
     .modal {
         width: 85%;
         height: 80%;
-        top: 53%
+        top: 53%;
     }
 }
 
@@ -1058,54 +1055,54 @@ section#projects .container .cards-projects .box:hover .description {
     .modal {
         width: 85%;
         height: 80%;
-        top: 55%
+        top: 55%;
     }
 }
 
 .modal .top {
     display: flex;
-    gap: 3.75rem
+    gap: 3.75rem;
 }
 
 @media (max-width: 992px) {
     .modal .top {
-        flex-wrap: wrap-reverse
+        flex-wrap: wrap-reverse;
     }
 }
 
 @media (max-width: 860px) {
     .modal .top {
-        gap: 0
+        gap: 0;
     }
 }
 
 @media (max-width: 992px) {
     .modal .top .video {
         display: flex;
-        justify-content: center
+        justify-content: center;
     }
 }
 
 .modal .top .video iframe {
     width: 60rem;
-    height: 35rem
+    height: 35rem;
 }
 
 @media (max-width: 1200px) {
     .modal .top .video iframe {
-        width: 40rem
+        width: 40rem;
     }
 }
 
 @media (max-width: 992px) {
     .modal .top .video iframe {
-        width: 70rem
+        width: 70rem;
     }
 }
 
 @media (max-width: 860px) {
     .modal .top .video iframe {
-        width: 53rem
+        width: 53rem;
     }
 }
 
@@ -1113,39 +1110,39 @@ section#projects .container .cards-projects .box:hover .description {
     .modal .top .video iframe {
         width: 38rem;
         height: 20rem;
-        margin-top: 2.5rem
+        margin-top: 2.5rem;
     }
 }
 
 @media (max-width: 480px) {
     .modal .top .video iframe {
-        display: none
+        display: none;
     }
 }
 
 .modal .top .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .modal .top .info .title {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .modal .top .info .title h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
-    color: #33A8FF
+    color: #33A8FF;
 }
 
 .modal .top .info .title i {
     cursor: pointer;
     font-size: 2.8rem;
-    color: #33A8FF
+    color: #33A8FF;
 }
 
 .modal .top .info p {
@@ -1154,19 +1151,19 @@ section#projects .container .cards-projects .box:hover .description {
     font-weight: 500;
     color: #828282;
     line-height: 140%;
-    padding: 1rem 0
+    padding: 1rem 0;
 }
 
 .modal .top .info span {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #33A8FF
+    color: #33A8FF;
 }
 
 .modal .links {
     display: flex;
-    gap: 2.5rem
+    gap: 2.5rem;
 }
 
 @media (max-width: 480px) {
@@ -1185,13 +1182,13 @@ section#projects .container .cards-projects .box:hover .description {
     font-size: 1.1rem;
     padding: 1rem 1.5rem;
     background-image: linear-gradient(90deg, rgba(9, 77, 121, 1) .2%, rgba(0, 212, 255, 1) 100%);
-    border-radius: .5rem
+    border-radius: .5rem;
 }
 
 @media (max-width: 480px) {
     .modal .links a {
         width: 100%;
-        text-align: center
+        text-align: center;
     }
 }
 
@@ -1206,50 +1203,50 @@ body.transparent::after {
     left: 0;
     position: absolute;
     z-index: 0;
-    animation: fade 1s
+    animation: fade 1s;
 }
 
 body.light-mode {
-    background-color: #F9F9F9
+    background-color: #F9F9F9;
 }
 
 body.light-mode header {
-    background-color: #13131F
+    background-color: #13131F;
 }
 
 body.light-mode header h2 {
-    color: #F9F9F9 !important
+    color: #F9F9F9 !important;
 }
 
 body.light-mode .banner h1 {
-    color: #13131F !important
+    color: #13131F !important;
 }
 
 body.light-mode .banner span {
-    color: #13131F !important
+    color: #13131F !important;
 }
 
 body.light-mode .banner .actions a:nth-child(2) {
-    color: #13131F !important
+    color: #13131F !important;
 }
 
 body.light-mode .banner .actions a:nth-child(2):hover {
-    color: #F9F9F9 !important
+    color: #F9F9F9 !important;
 }
 
 body.light-mode h2,
 body.light-mode h3 {
-    color: #13131F !important
+    color: #13131F !important;
 }
 
 body.light-mode .contacts p {
-    color: #13131F !important
+    color: #13131F !important;
 }
 
 body.light-mode .modal h2 {
-    color: #33A8FF !important
+    color: #33A8FF !important;
 }
 
 body.light-mode .menuOpen h2 {
-    color: #F9F9F9 !important
+    color: #F9F9F9 !important;
 }

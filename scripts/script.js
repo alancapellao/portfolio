@@ -87,14 +87,14 @@ $(document).ready(function () {
 
     const renderNextAnimation = (index) => {
       if (index >= typingAnimations.length) {
-        return; // Termina a renderização quando todos os objetos foram renderizados
+        return; 
       }
 
       const { element, text, delay } = typingAnimations[index];
       const textToArray = text.split('');
       let currentIndex = 0;
 
-      element.html(''); // Limpa o conteúdo atual do elemento
+      element.html(''); 
 
       const renderCharacter = () => {
         if (currentIndex < textToArray.length) {
@@ -102,16 +102,13 @@ $(document).ready(function () {
           currentIndex++;
           setTimeout(renderCharacter, delay);
         } else {
-          // Após renderizar o texto completo, chame a próxima renderização
           renderNextAnimation(index + 1);
         }
       };
 
-      // Inicia a renderização do próximo objeto
       renderCharacter();
     };
 
-    // Inicia a renderização do primeiro objeto
     renderNextAnimation(0);
   };
 

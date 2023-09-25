@@ -1,13 +1,4 @@
 $(document).ready(function () {
-  // const closeModalAction = $('.modal .ri-close-line');
-  // const modal = $('.modal');
-  // const modalTitle = modal.find('.title h2');
-  // const modalDescription = modal.find('.info p');
-  // const modalDate = modal.find('span');
-  // const modalLinkProject = modal.find('.links a.link-project')
-  // const modalLinkRepository = modal.find('.links a.link-repository')
-  // const modalLinkLinkedin = modal.find('.links a.link-linkedin')
-  // const iframe = modal.find('.video iframe')
   const highlightsProjectsContainer = $('.highlights .cards-projects');
   const allProjectsContainer = $('.allprojects .cards-projects');
   const HIGHTLIGHT_TYPE = 2;
