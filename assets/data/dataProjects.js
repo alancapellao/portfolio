@@ -5,7 +5,7 @@ const dataProjects = [
         title: 'Controle de Estoque',
         languages: ['php', 'laravel', 'mysql'],
         imgSrc: 'assets/projects/control.png',
-        repository: 'https://github.com/alancptk7/inventory-control'
+        repository: 'https://github.com/alancapellao/inventory-control'
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const dataProjects = [
         title: 'Chat Aleatório',
         languages: ['php', 'mysql'],
         imgSrc: 'assets/projects/chat.png',
-        repository: 'https://github.com/alancptk7/random-chat'
+        repository: 'https://github.com/alancapellao/random-chat'
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const dataProjects = [
         title: 'Sessão',
         languages: ['php', 'mysql'],
         imgSrc: 'assets/projects/session.png',
-        repository: 'https://github.com/alancptk7/session-form'
+        repository: 'https://github.com/alancapellao/session-form'
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const dataProjects = [
         title: 'CRUD',
         languages: ['java', 'mysql'],
         imgSrc: 'assets/projects/crud.png',
-        repository: 'https://github.com/alancptk7/crud'
+        repository: 'https://github.com/alancapellao/crud'
     },
     {
         id: 5,
@@ -37,8 +37,8 @@ const dataProjects = [
         title: 'Cronômetro',
         languages: ['javascript', 'css', 'html'],
         imgSrc: 'assets/projects/stopwatch.jpg',
-        repository: 'https://github.com/alancptk7/stopwatch',
-        site: 'https://alancptk7.github.io/stopwatch/'
+        repository: 'https://github.com/alancapellao/stopwatch',
+        site: 'https://alancapellao.github.io/stopwatch/'
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const dataProjects = [
         title: 'Controle Financeiro',
         languages: ['php', 'mysql'],
         imgSrc: 'assets/projects/finances.png',
-        repository: 'https://github.com/alancptk7/finances-control'
+        repository: 'https://github.com/alancapellao/finances-control'
     },
     {
         id: 7,
@@ -54,8 +54,8 @@ const dataProjects = [
         title: 'Calculadora Web',
         languages: ['html', 'javascript', 'css'],
         imgSrc: 'assets/projects/calcweb.png',
-        repository: 'https://github.com/alancptk7/calculator-web',
-        site: 'https://alancptk7.github.io/calculator-web/'
+        repository: 'https://github.com/alancapellao/calculator-web',
+        site: 'https://alancapellao.github.io/calculator-web/'
     },
     {
         id: 8,
@@ -63,8 +63,8 @@ const dataProjects = [
         title: 'Conversor Romano',
         languages: ['css', 'javascript', 'html'],
         imgSrc: 'assets/projects/converter.png',
-        repository: 'https://github.com/alancptk7/converter-roman',
-        site: 'https://alancptk7.github.io/converter-roman/'
+        repository: 'https://github.com/alancapellao/converter-roman',
+        site: 'https://alancapellao.github.io/converter-roman/'
     },
     {
         id: 9,
@@ -72,8 +72,8 @@ const dataProjects = [
         title: 'Relógio',
         languages: ['css', 'javascript', 'html'],
         imgSrc: 'assets/projects/clock.png',
-        repository: 'https://github.com/alancptk7/clock',
-        site: 'https://alancptk7.github.io/clock/'
+        repository: 'https://github.com/alancapellao/clock',
+        site: 'https://alancapellao.github.io/clock/'
     },
     {
         id: 10,
@@ -81,8 +81,8 @@ const dataProjects = [
         title: 'Login',
         languages: ['css', 'html'],
         imgSrc: 'assets/projects/login.png',
-        repository: 'https://github.com/alancptk7/login',
-        site: 'https://alancptk7.github.io/login/'
+        repository: 'https://github.com/alancapellao/login',
+        site: 'https://alancapellao.github.io/login/'
     },
     {
         id: 11,
@@ -90,8 +90,8 @@ const dataProjects = [
         title: 'Lista de Tarefas',
         languages: ['css', 'javascript', 'html'],
         imgSrc: 'assets/projects/task.png',
-        repository: 'https://github.com/alancptk7/task-list',
-        site: 'https://alancptk7.github.io/task-list/'
+        repository: 'https://github.com/alancapellao/task-list',
+        site: 'https://alancapellao.github.io/task-list/'
     },
     {
         id: 12,
@@ -99,7 +99,7 @@ const dataProjects = [
         title: 'Calculadora',
         languages: ['java'],
         imgSrc: 'assets/projects/calc.png',
-        repository: 'https://github.com/alancptk7/calculator'
+        repository: 'https://github.com/alancapellao/calculator'
     },
     {
         id: 13,
@@ -107,7 +107,7 @@ const dataProjects = [
         title: 'Facebook',
         languages: ['java', 'mysql'],
         imgSrc: 'assets/projects/facebook.png',
-        repository: 'https://github.com/alancptk7/facebook'
+        repository: 'https://github.com/alancapellao/facebook'
     },
     ,
     {
@@ -116,7 +116,7 @@ const dataProjects = [
         title: 'Sorteio de Números',
         languages: ['java'],
         imgSrc: 'assets/projects/sorteio.png',
-        repository: 'https://github.com/alancptk7/random-numbers'
+        repository: 'https://github.com/alancapellao/random-numbers'
     },
     {
         id: 15,
@@ -124,6 +124,6 @@ const dataProjects = [
         title: 'Formulário',
         languages: ['php', 'mysql'],
         imgSrc: 'assets/projects/form.png',
-        repository: 'https://github.com/alancptk7/form'
+        repository: 'https://github.com/alancapellao/form'
     }
 ];
