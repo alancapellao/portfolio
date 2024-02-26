@@ -80,7 +80,7 @@ $(document).ready(function () {
       },
       {
         element: $('#sobre .banner p'),
-        text: 'Desenvolvedor de Software',
+        text: 'Desenvolvedor Back-end',
         delay: 75
       }
     ];
